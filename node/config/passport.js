@@ -7,7 +7,7 @@ const jwtSecret = require("./jwtConfig"),
   JWTstrategy = require("passport-jwt").Strategy,
   ExtractJWT = require("passport-jwt").ExtractJwt;
 
-  /* const User = tables[0];
+  /*const User = tables[0];
 
   passport.use(
     "register",

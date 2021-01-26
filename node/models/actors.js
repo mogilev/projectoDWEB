@@ -7,6 +7,6 @@ module.exports = (sequelize, type) =>
     },
     name: type.STRING,
     country: type.STRING,
-    birth_date: type.date,
+    birth_date: type.STRING,
     sex: type.CHAR,
   });

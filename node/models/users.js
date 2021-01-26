@@ -5,6 +5,7 @@ module.exports = (sequelize, type) =>
       primaryKey: true,
       autoIncrement: true,
     },
+    isAdmin: type.boolean,
     first_name: type.STRING,
     last_name: type.STRING,
     email: {
@@ -22,5 +23,3 @@ module.exports = (sequelize, type) =>
     resetPasswordToken: type.STRING,
     resetPasswordExpires: type.DATE,
   });
-
-  /* Não sei se este está certo */
