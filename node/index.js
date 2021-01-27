@@ -7,7 +7,7 @@ require('./config/passport');
 
 
 
-
+/*
 app.use(Cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -24,3 +24,4 @@ require('./routes/allbooks')(app);
 require('./routes/clickFavorito')(app);
 
 module.exports = app;
+*/
