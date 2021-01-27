@@ -1,17 +1,17 @@
 //  TODO
 const Sequelize = require("sequelize");
-const UserModel = require("./models/utentes");
-const BookModel = require("./models/bookData");
+const UserModel = require("./models/users");
+//const BookModel = require("./models/bookData");
 const Favoritos = require("./models/favoritos");
 
 const db = {};
-db[0] = new Sequelize("users", "webdev", "DevWeb01", {
-  host: "localhost",
-  dialect: "mysql",
+db[0] = new Sequelize("dweb_users", "root", "root", { // database | user | password
+    host: "localhost",
+    dialect: "mysql",
 });
-db[1] = new Sequelize("library", "webdev", "DevWeb01", {
-  host: "localhost",
-  dialect: "mysql",
+db[1] = new Sequelize("dweb_movies", "root", "root", {
+    host: "localhost",
+    dialect: "mysql",
 });
 
 const tables = {};
