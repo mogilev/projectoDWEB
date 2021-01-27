@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*const jwtSecret = require("./jwtConfig"),
   bcrypt = require("bcrypt"),
   BCRYPT_SALT_ROUNDS = 12,
@@ -127,3 +128,5 @@
       }
     })
   );  */
+=======
+>>>>>>> 73071d4d2889a1a8ee1f5ffaee14925cbfa4fd78
