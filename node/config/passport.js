@@ -1,4 +1,4 @@
-const jwtSecret = require("./jwtConfig"),
+/*const jwtSecret = require("./jwtConfig"),
   bcrypt = require("bcrypt"),
   BCRYPT_SALT_ROUNDS = 12,
   passport = require("passport"),
@@ -7,7 +7,7 @@ const jwtSecret = require("./jwtConfig"),
   JWTstrategy = require("passport-jwt").Strategy,
   ExtractJWT = require("passport-jwt").ExtractJwt;
 
-  /*const User = tables[0];
+  const User = tables[0];
 
   passport.use(
     "register",

@@ -4,11 +4,7 @@ app.listen(3000, () => console.log('listening at 3000'));
 app.use(express.static('public'));
 require('./config/passport');
 
-
-
-
-
-app.use(Cors());
+/* app.use(Cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(logger('dev'));
@@ -23,4 +19,4 @@ require('./routes/logout')(app);
 require('./routes/allbooks')(app);
 require('./routes/clickFavorito')(app);
 
-module.exports = app;
+module.exports = app; */
