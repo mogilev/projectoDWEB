@@ -24,6 +24,7 @@ Users can:
 - The back-end was made on [node.js](https://nodejs.org) ([Express.js](https://expressjs.com/) framework, [Passport.js](https://www.passportjs.org/) for authentication), served by a [MySQL](https://www.mysql.com/) database. 
 - Developed in VSCode
 <br>
+
 #### Disclamer: This is an academic work, developed solely for educational purposes, it is not tested or ready for a production environment
 
 ## License & copyright
